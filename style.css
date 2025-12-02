@@ -230,8 +230,8 @@ body{
 .meta li{ margin-bottom:8px }
 
 /* -------- Projects / work section -------- */
-.section{ margin-top:26px; border-radius:12px; padding:20px; background: linear-gradient(180deg, rgba(255,255,255,0.96), rgba(255,255,255,0.92)); box-shadow: 0 10px 30px rgba(11,29,25,0.04); }
-.section-title{ font-size:18px; color:var(--panel); margin-bottom:12px; font-weight:700;border-radius:12px; padding:20px; background: linear-gradient(180deg, rgba(255,255,255,0.96), rgba(255,255,255,0.92)); box-shadow: 0 10px 30px rgba(11,29,25,0.04); }
+.section{ margin-top:26px; border-radius:12px; padding:20px; background: linear-gradient(180deg, rgba(253, 255, 120, 0.96), rgba(255,255,255,0.92)); box-shadow: 10 10px 30px rgba(11,29,25,0.04); }
+.section-title{ font-size:18px; color:var(--panel); margin-bottom:12px; font-weight:700;border-radius:12px; padding:20px; background: linear-gradient(180deg, rgba(253, 255, 120, 0.96), rgba(255,255,255,0.92)); box-shadow: 10 10px 30px rgba(11,29,25,0.04);  }
 .projects{
   display:grid;
   grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
