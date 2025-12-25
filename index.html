@@ -1,156 +1,201 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Your Name | Portfolio</title>
-<link rel="stylesheet" href="style.css">
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>G Umesh Chandra Srihas</title>
+
+  <!-- fonts (change if you want) -->
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700;900&family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
 
-<!-- ================= HEADER ================= -->
-<header class="header fade-in">
-  <div class="brand">
-    <div class="logo">UM</div>
-    <span class="brand-name">Umesh Chandra</span>
-  </div>
+  <div class="page">
 
-  <nav class="nav-links">
-    <a href="#home">Home</a>
-    <a href="#projects">Projects</a>
-    <a href="#skills">Skills</a>
-    <a href="#certs">Certificates</a>
-    <a href="#contact">Contact</a>
-  </nav>
-  <button class="menu-btn" onclick="toggleNav()">☰</button>
-</header>
-
-<div class="mobile-nav" id="mobileNav">
-  <a class="m-link" href="#home">Home</a>
-  <a class="m-link" href="#projects">Projects</a>
-  <a class="m-link" href="#skills">Skills</a>
-  <a class="m-link" href="#certs">Certificates</a>
-  <a class="m-link" href="#contact">Contact</a>
-</div>
-
-<!-- ================= HERO SECTION ================= -->
-<section class="hero" id="home">
-  <div class="hero-left">
-    <h1 class="big">I'm a Developer</h1>
-    <p class="name">Umesh Chandra • Web Developer</p>
-    <p class="intro">
-      Crafting digital experiences with <b>React, Python, AI & UI/UX</b>.
-      I build futuristic, gaming-inspired websites and software.
-    </p>
-    <div class="cta-row">
-      <a href="#projects" class="btn primary">🚀 View Projects</a>
-      <a href="#contact" class="btn outline">📩 Contact Me</a>
-    </div>
-  </div>
-
-  <div class="hero-right">
-    <div class="img-frame">
-      <img src="assets/profile.jpg" class="profile" alt="profile image">
-      <span class="label">DEVELOPER</span>
-    </div>
-  </div>
-</section>
-
-<!-- ================= ABOUT ================= -->
-<section class="section" id="about">
-<h2 class="section-title">🧑‍💻 About Me</h2>
-<p>
-  I am a creative developer with passion for intelligent systems, cinematic UI, and
-  building experiences that feel alive like gaming HUDs (Iron Man / Batman tech).
-</p>
-</section>
-
-<!-- ================= PROJECTS ================= -->
-<section class="section" id="projects">
-<h2 class="section-title">🚀 Featured Projects</h2>
-<div class="projects">
-
-  <div class="project">
-    <div class="thumb">AI Assistant</div>
-    <div class="p-body">
-      <h4>Personal AI Chat Companion</h4>
-      <p class="muted">Local AI chatbot with offline brain & voice control</p>
-      <div class="links">
-        <a href="#">Demo</a>
-        <a href="#">GitHub →</a>
+    <!-- NAV -->
+    <header class="header">
+      <div class="brand">
+        <div class="brand-name">G Umesh</div>
       </div>
-    </div>
-  </div>
 
-  <div class="project">
-    <div class="thumb">Water IoT</div>
-    <div class="p-body">
-      <h4>Smart Water Management</h4>
-      <p class="muted">Predict leaks & control usage with sensors</p>
-      <div class="links">
-        <a href="#">Demo</a>
-        <a href="#">GitHub →</a>
+      <nav class="nav-links">
+        <a href="#about">About</a>
+        <a href="#work">Work</a>
+        <a href="#skills">Skills</a>
+        <a href="#contact">Contact</a>
+      </nav>
+
+      <button id="menuBtn" class="menu-btn" aria-label="Open menu">☰</button>
+    </header>
+
+    <!-- mobile nav drawer -->
+    <div id="mobileNav" class="mobile-nav">
+      <a href="#about" class="m-link">About</a>
+      <a href="#work" class="m-link">Work</a>
+      <a href="#skills" class="m-link">Skills</a>
+      <a href="#contact" class="m-link">Contact</a>
+      <button id="closeMobile" class="close-mobile">Close</button>
+    </div>
+
+    <!-- HERO -->
+    <section class="hero" id="home">
+      <div class="hero-left">
+        <h1 class="big">PORTFOLIO</h1>
+        <h2 class="name">G Umesh Chandra Srihas</h2>
+        <p class="subtitle">Python Programming • C Programming• Full Stack & Embedded Systems</p>
+        <p class="intro">
+            my name is G Umesh Chandra Srihas, a BTech Computer Science and Engineering student at Kalasalingam University. I specialize in UI/UX design and full-stack development, with a passion for creating seamless user experiences and innovative solutions. Welcome to my portfolio!
+        </p>
+
+        <div class="cta-row">
+          <a class="btn primary" href="#work">See work</a>
+          <a class="btn outline" href="assests/images/Umesh.webp" download>Download Photo</a>
+        </div>
+
+        <div class="mini-contact">
+          <a href="mailto:uc20994@gmail.com">uc20994@gmail.com</a> • <a href="tel:+919573861418">+91 95738 61418</a>
+        </div>
       </div>
-    </div>
-  </div>
 
-  <div class="project">
-    <div class="thumb">Gaming UI</div>
-    <div class="p-body">
-      <h4>Marvel/DC HUD Website</h4>
-      <p class="muted">Interactive neon hologram UI animation</p>
-      <div class="links">
-        <a href="#">Demo</a>
-        <a href="#">GitHub →</a>
+      <aside class="hero-right">
+        <div class="img-frame">
+          <img src="assests/images/Umesh.webp" alt="Umesh photo" class="profile">
+          <div class="label">Kalasalingam University</div>
+        </div>
+      </aside>
+    </section>
+
+    <!-- ABOUT + CONTACT -->
+    <section id="about" class="about-grid">
+      <div class="about-card">
+        <h3>About</h3>
+        <p class="lead">Diploma Polytechnic in Electronics and Communication engineering in Sai Spoorthi Instuite of Technology in Telangana — BTech Computer Science and Engineering in Kalasalingam University Tamilnadu. I design usable interfaces and build full-stack and IoT projects (Arduino / ESP).I am a UI/UX-focused developer who blends product thinking with front-end and embedded skills. I make prototypes, wireframes and production-ready front ends that connect to hardware or backend services.</p>
+
+        <ul class="meta">
+          <li><strong>Location:</strong> Kalasalingam University</li>
+          <li><strong>Qualification:</strong> BTech 3rd Year</li>
+          <li><strong>Email:</strong> <a href="mailto:uc20994@gmail.com">uc20994@gmail.com</a></li>
+        </ul>
       </div>
+
+      <aside class="contact-card">
+        <h4>Contact</h4>
+        <p><strong>Email</strong><br><a href="mailto:uc20994@gmail.com">uc20994@gmail.com</a></p>
+        <p><strong>Phone</strong><br><a href="tel:+919573861418">+91 95738 61418</a></p>
+        <p><strong>GitHub</strong><br><a href="https://github.com/uc20994-maker" target="_blank" rel="noopener noreferrer">uc20994-maker</a></p>
+      </aside>
+    </section>
+
+    <!-- WORK -->
+    <section id="work" class="section">
+      <h3 class="section-title">Selected Work</h3>
+
+      <div class="projects">
+        <article class="project">
+          <div class="thumb">ESP8266 Pulse Monitor</div>
+          <div class="p-body">
+            <h4>ESP8266 Pulse Monitor</h4>
+            <p class="muted">Real-time heart-rate monitor using ESP8266 with dashboard and MQTT integration.</p>
+            <div class="links"><a href="https://github.com/uc20994-maker" target="https://github.com/uc20994-maker" rel="https://github.com/uc20994-maker">Code</a></div>
+          </div>
+        </article>
+      </div>
+      
+    </section>
+
+    <!-- CERTIFICATES SECTION -->
+<section id="certificates" class="section certificates">
+  <h3 class="section-title">Certificates</h3>
+
+  <div class="cert-grid">
+
+    <!-- Certificate Item -->
+
+    <div class="cert-card">
+      <h4>Python Programming</h4>
+      <p class="issuer">Issued by: 1stop</p>
+      <p class="year">2025</p>
+      <a href="https://wily-coral-swtrlsobbe-tnd663soou.edgeone.dev/" target="_blank" rel="noopener noreferrer" class="cert-link">View Certificate (edgeone)</a>
     </div>
+    <div class="projects">
+        <article class="project">
+          <div class="thumb">Portfolio</div>
+          <div class="p-body">
+            <h4>Umesh Chandra Portfolio</h4>
+            <p class="muted">The Portfolio is made for my self for making others to know my Skills and Projects.</p>
+            <div class="links"><a href="https://incredible-pudding-9d5688.netlify.app/" target="https://incredible-pudding-9d5688.netlify.app/" rel="https://github.com/uc20994-maker">Portfolio Here</a></div>
+          </div>
+        </article>
+      </div>
+  </div>
+</section>
+
+    <!-- SKILLS & TIMELINE -->
+    <section id="skills" class="section two-col">
+      <div>
+        <h3 class="section-title">Education & Experience</h3>
+        <div class="timeline">
+          <div class="event">
+            <div class="date">2023</div>
+            <div class="desc"><strong>Electronics And Communication Engineer</strong><br>IOT based and Real World applications</div>
+          </div>
+          <div class="event">
+            <div class="date">2024</div>
+            <div class="desc"><strong>Marketing Intern</strong><br>Social media support</div>
+          </div>
+          <div class="event">
+            <div class="date">2025</div>
+            <div class="desc"><strong>Graphic Designer</strong><br>Promotional & UI visuals</div>
+          </div>
+        </div>
+      </div>
+
+      <div>
+        <h3 class="section-title">Skills & Tools</h3>
+        <ul class="skill-list">
+          <li>UI / UX Design</li>
+          <li>Wireframing & Prototyping</li>
+          <li>HTML • CSS • JavaScript</li>
+          <li>Python • C • Arduino</li>
+          <li>Figma / Adobe XD</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- CONTACT FORM -->
+    <section id="contact" class="section contact-section">
+      <h3 class="section-title">Let's talk</h3>
+
+      <div class="contact-grid">
+        <form id="contactForm" class="form">
+          <input name="name" type="text" placeholder="Your name" required>
+          <input name="email" type="email" placeholder="Email" required>
+          <textarea name="message" rows="5" placeholder="Tell me about your project..." required></textarea>
+          <div class="form-row">
+            <button class="btn primary" type="submit">Send</button>
+            <div id="status" class="status"></div>
+          </div>
+        </form>
+
+        <div class="contact-preview">
+          <h4>Quick Links</h4>
+          <p><a href="https://www.linkedin.com/in/umesh-chandra-510212367" target="_blank" rel="noopener noreferrer">LinkedIn</a></p>
+          <p><a href="https://github.com/uc20994-maker" target="_blank" rel="noopener noreferrer">GitHub</a></p>
+          <p class="muted">Or email me at <a href="mailto:uc20994@gmail.com">uc20994@gmail.com</a></p>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <small>© 2025 G Umesh Chandra Srihas</small>
+    </footer>
+
   </div>
 
-</div>
-</section>
+  <script src="script.js"></script>
+  
 
-<!-- ================= SKILLS ================= -->
-<section class="section" id="skills">
-<h2 class="section-title">⚡ Skills</h2>
-<ul class="skill-list">
-  <li>Frontend: HTML, CSS, React, Tailwind</li>
-  <li>Backend: Python, Flask, Node.js</li>
-  <li>AI/ML: TensorFlow, CV, NLP</li>
-  <li>Tools: GitHub, Figma, VS Code</li>
-</ul>
-</section>
-
-<!-- ================= CERTIFICATES ================= -->
-<section class="section" id="certs">
-<h2 class="section-title">🎖 Certificates</h2>
-<div class="cert-grid">
-  <div class="cert-card">
-    <h4>Python Mastery</h4>
-    <p class="issuer">Coursera</p><span class="year">2024</span>
-  </div>
-  <div class="cert-card">
-    <h4>Machine Learning</h4>
-    <p class="issuer">Google</p><span class="year">2025</span>
-  </div>
-</div>
-</section>
-
-<!-- ================= CONTACT ================= -->
-<section class="section" id="contact">
-<h2 class="section-title">📩 Contact Me</h2>
-<form class="form">
-  <input type="text" placeholder="Your Name">
-  <input type="email" placeholder="Email">
-  <textarea placeholder="Your Message"></textarea>
-  <button type="submit" class="btn primary">Send Message</button>
-</form>
-</section>
-
-<!-- ================= FOOTER ================= -->
-<footer class="footer">
-  © 2025 Umesh Portfolio | Built with ❤️ + ⚡ Marvel Tech Theme
-</footer>
-
-<script src="script.js"></script>
 </body>
 </html>
